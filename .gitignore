@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.env.local
+venv/
+
+# Data that is regenerated at runtime
+/data/database/
+/data/models/
+
+# OS
+.DS_Store
+
+# VSCode settings should be kept in repo, but exclude workspace-specific files
+.vscode/*.code-workspace

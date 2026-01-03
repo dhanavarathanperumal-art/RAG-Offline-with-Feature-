@@ -1,0 +1,15 @@
+# These packages DO NOT require C++ compilers on Windows
+streamlit==1.28.0
+numpy==1.24.3
+scikit-learn==1.3.0
+pymupdf==1.23.8
+
+# Optional - better embeddings
+# sentence-transformers==2.2.2
+
+# DO NOT INSTALL THESE (they need C++ compilers):
+# llama-cpp-python
+# chromadb
+# faiss-cpu
+# transformers (sometimes)
+# torch (sometimes)
