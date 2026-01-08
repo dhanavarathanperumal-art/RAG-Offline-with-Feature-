@@ -1,16 +1,7 @@
-# Core runtime (adjust versions as needed)
-fastapi
-uvicorn[standard]
-streamlit
-# Vector DB / embeddings
-# On Windows FAISS can be difficult to install; use ChromaDB instead (cross-platform)
-# faiss-cpu  # Optional, recommended on Linux
-chromadb
-sentence-transformers
-scikit-learn
-# PDF parsing
-pymupdf
-# Local LLM support (GGUF / llama.cpp bindings)
-llama-cpp-python
-
-
+streamlit==1.28.1
+chromadb==0.4.18
+sentence-transformers==2.2.2
+pdfplumber==0.10.3  # Instead of pymupdf for cloud
+PyPDF2==3.0.1
+langchain==0.0.350
+python-dotenv==1.0.0
