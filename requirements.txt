@@ -1,7 +1,7 @@
 # Core runtime (adjust versions as needed)
 fastapi
 uvicorn[standard]
-streamlit
+steamlit
 # Vector DB / embeddings
 # On Windows FAISS can be difficult to install; use ChromaDB instead (cross-platform)
 # faiss-cpu  # Optional, recommended on Linux
@@ -9,6 +9,7 @@ chromadb
 sentence-transformers
 scikit-learn
 # PDF parsing
-pypdf
+pymupdf
 # Local LLM support (GGUF / llama.cpp bindings)
 llama-cpp-python
+
